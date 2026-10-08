@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+body {
+  background-color: #f2f2f2; /* Un gris claro muy limpio */
+}
+.img-thumbnail {
+    width: 100%;             /* Se adapta al ancho de la columna de Bootstrap */
+    max-height: 280px;       /* Pone un límite de altura cómodo para que no se desborde */
+    height: auto;            /* Respeta la proporción original de la foto */
+    object-fit: contain;     /* REGLA CLAVE: Ajusta la imagen completa dentro del espacio sin recortarla */
+    background-color: #fff;  /* Agrega un fondo blanco limpio por si la foto es más angosta que el recuadro */
+    border-radius: 8px;      /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Sombra sutil */
+}
+
+h3 {
+  color: green;
+}
+
+/* Clase para poner 3 h3 en azul */
+.azul {
+  color: blue;
+}
+
+/* Para hacer un h3 en rojo */
+#rojo {
+  color: red;
+}
